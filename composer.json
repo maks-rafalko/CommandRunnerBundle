@@ -1,0 +1,24 @@
+{
+    "name": "mrafalko/command-runner-bundle",
+    "type": "symfony-bundle",
+    "description": "Executes symfony console command from a Controller.",
+    "keywords": ["command","console", "controller"],
+    "homepage": "https://github.com/mrafalko/CommandRunnerBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maks Rafalko",
+            "email": "maks.rafalko@gmail.com",
+            "homepage": "http://mrafalko.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mrafalko\\CommandRunnerBundle": ""
+        }
+    }
+}
