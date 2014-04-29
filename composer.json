@@ -20,5 +20,6 @@
         "psr-0": {
             "Mrafalko\\CommandRunnerBundle": ""
         }
-    }
+    },
+    "target-dir": "Mrafalko/CommandRunnerBundle"
 }
