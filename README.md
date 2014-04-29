@@ -1,4 +1,4 @@
 CommandRunnerBundle
 ===================
 
-Executes symfony console command from a Controller.
+Executes Symfony2 console command from a Controller.
