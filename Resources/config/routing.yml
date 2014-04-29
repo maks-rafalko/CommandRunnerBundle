@@ -1,0 +1,3 @@
+mrafalko_command_runner:
+   resource: "@MrafalkoCommandRunnerBundle/Controller/"
+   type: annotation
