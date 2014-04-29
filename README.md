@@ -24,3 +24,20 @@ public function registerBundles()
     );
 }
 ```
+
+Then import routing file:
+
+```
+# app/config/routing.yml
+mrafalko_command_runner:
+    resource: "@MrafalkoCommandRunnerBundle/Controller"
+    type: annotation
+    prefix:   /
+```
+
+Examples
+------------
+
+Run the command from your URL:
+
+http://yourdomain.dev/command-runner/your:command:name
