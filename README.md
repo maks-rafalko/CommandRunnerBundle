@@ -1,7 +1,7 @@
 CommandRunnerBundle
 ===================
 
-Executes Symfony2 console command from a Controller.
+Executes Symfony2 console command from HTTP request.
 
 Installation
 ------------
