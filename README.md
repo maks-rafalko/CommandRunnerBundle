@@ -30,7 +30,7 @@ Then import routing file:
 ```
 # app/config/routing.yml
 mrafalko_command_runner:
-    resource: "@MrafalkoCommandRunnerBundle/Controller"
+    resource: "@MrafalkoCommandRunnerBundle/Controller/CommandRunnerController.php"
     type: annotation
     prefix:   /
 ```
