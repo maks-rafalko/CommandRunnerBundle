@@ -14,7 +14,7 @@ To install it, run:
 
 Then add the bundle to `app/AppKernel.php`:
 
-```
+```php
 public function registerBundles()
 {
     return array(
@@ -27,7 +27,7 @@ public function registerBundles()
 
 Then import routing file:
 
-```
+```yaml
 # app/config/routing.yml
 mrafalko_command_runner:
     resource: "@MrafalkoCommandRunnerBundle/Controller/CommandRunnerController.php"
