@@ -51,7 +51,7 @@ class CommandRunnerController extends Controller
         }
 
         foreach ($preparedOptions as $key => $option) {
-            if (empty($value)) {
+            if (empty($option)) {
                 $string .= ' ' . $key;
             } else {
                 $string .= ' ' . sprintf('%s=%s', $key, $option);
